@@ -1,0 +1,11 @@
+framework module Pushe {
+    umbrella header "Pushe.h"
+    
+    export *
+    module * { export * }
+    
+    link framework "Foundation"
+    
+    header "PusheApp.h"
+    header "PusheNotificationsDelegate.h"
+}
